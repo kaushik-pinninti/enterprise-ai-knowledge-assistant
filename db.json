@@ -1,0 +1,377 @@
+{
+  "users": [
+    {
+      "id": "usr-admin",
+      "email": "admin@enterprise.ai",
+      "name": "Sarah Jenkins (Admin)",
+      "role": "Admin",
+      "isActive": true,
+      "avatarUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150",
+      "joinedAt": "2026-01-10T08:00:00Z",
+      "emailVerified": true,
+      "passwordHash": "$2b$10$Sz3u8V.tV2Kck70ivaDRou5bphykxyNP855LLdlhD8froLZOHqjSS",
+      "mfaEnabled": false,
+      "mfaSecret": null
+    },
+    {
+      "id": "usr-manager",
+      "email": "manager@enterprise.ai",
+      "name": "Alex Rivera (Manager)",
+      "role": "Manager",
+      "isActive": true,
+      "avatarUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150",
+      "joinedAt": "2026-02-15T09:30:00Z",
+      "emailVerified": true,
+      "passwordHash": "$2b$10$K1zgz9ST.SLBlLfRVy4dD.XGmZFjycAZo8dZ9NPRk4DL7GhRRSN4q",
+      "mfaEnabled": false,
+      "mfaSecret": null
+    },
+    {
+      "id": "usr-employee",
+      "email": "employee@enterprise.ai",
+      "name": "Emma Chen (Employee)",
+      "role": "Employee",
+      "isActive": true,
+      "avatarUrl": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150",
+      "joinedAt": "2026-03-22T10:15:00Z",
+      "emailVerified": true,
+      "passwordHash": "$2b$10$zIydGz2XAskrLUTlg4crsueEDmEjJi8GW43n7wqjwqWpQFtmJCsAO",
+      "mfaEnabled": false,
+      "mfaSecret": null
+    },
+    {
+      "id": "usr-rahul",
+      "email": "rahul.sharma@enterprise.ai",
+      "name": "Rahul Sharma (Admin)",
+      "role": "Admin",
+      "isActive": true,
+      "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150",
+      "joinedAt": "2026-01-15T08:00:00Z",
+      "emailVerified": true,
+      "passwordHash": "$2b$10$9BcBPhz/3G6c3KiYyUNRd.5POEeSsGn4aTOHI0R4G1bWlI/1FoNky",
+      "mfaEnabled": false,
+      "mfaSecret": null
+    },
+    {
+      "id": "usr-priya",
+      "email": "priya.patel@enterprise.ai",
+      "name": "Priya Patel (Manager)",
+      "role": "Manager",
+      "isActive": true,
+      "avatarUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150",
+      "joinedAt": "2026-02-18T09:30:00Z",
+      "emailVerified": true,
+      "passwordHash": "$2b$10$6M6RI7WVS7PDgpDOefVT1.70BLxAax3Y0AvmBG6MV2X4WXiYvCbRy",
+      "mfaEnabled": false,
+      "mfaSecret": null
+    },
+    {
+      "id": "usr-amit",
+      "email": "amit.verma@enterprise.ai",
+      "name": "Amit Verma (Employee)",
+      "role": "Employee",
+      "isActive": true,
+      "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150",
+      "joinedAt": "2026-03-25T10:15:00Z",
+      "emailVerified": true,
+      "passwordHash": "$2b$10$HNvs5yPj38M5YdG.0F4jS.CTsd/GdHjU.vLTUcu8kHBIFZwpy3Om.",
+      "mfaEnabled": false,
+      "mfaSecret": null
+    },
+    {
+      "id": "usr-ananya",
+      "email": "ananya.iyer@enterprise.ai",
+      "name": "Ananya Iyer (Employee)",
+      "role": "Employee",
+      "isActive": true,
+      "avatarUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150",
+      "joinedAt": "2026-04-01T11:00:00Z",
+      "emailVerified": false,
+      "passwordHash": "$2b$10$9z5vfoVuX6JodB8pWnbrBebpa79tHdWWZ9e/LgPRHIMLYKreBSMpK",
+      "mfaEnabled": false,
+      "mfaSecret": null
+    }
+  ],
+  "workspaces": [
+    {
+      "id": "ws-global",
+      "name": "Global Knowledge Base",
+      "description": "Company-wide manuals, HR policies, branding guidelines, and common resources.",
+      "avatarUrl": "🏢",
+      "createdAt": "2026-01-10T08:00:00Z",
+      "ownerId": "usr-admin"
+    },
+    {
+      "id": "ws-marketing",
+      "name": "Q3 Campaign Strategy",
+      "description": "Marketing creative assets, target personas, social playbooks, and content calendar.",
+      "avatarUrl": "🚀",
+      "createdAt": "2026-03-01T14:00:00Z",
+      "ownerId": "usr-manager"
+    }
+  ],
+  "workspace_members": [
+    {
+      "workspaceId": "ws-global",
+      "userId": "usr-admin",
+      "role": "Admin",
+      "joinedAt": "2026-01-10T08:00:00Z"
+    },
+    {
+      "workspaceId": "ws-global",
+      "userId": "usr-manager",
+      "role": "Manager",
+      "joinedAt": "2026-01-11T09:00:00Z"
+    },
+    {
+      "workspaceId": "ws-global",
+      "userId": "usr-employee",
+      "role": "Employee",
+      "joinedAt": "2026-01-12T10:00:00Z"
+    },
+    {
+      "workspaceId": "ws-global",
+      "userId": "usr-rahul",
+      "role": "Admin",
+      "joinedAt": "2026-01-15T08:00:00Z"
+    },
+    {
+      "workspaceId": "ws-global",
+      "userId": "usr-priya",
+      "role": "Manager",
+      "joinedAt": "2026-02-18T09:30:00Z"
+    },
+    {
+      "workspaceId": "ws-global",
+      "userId": "usr-amit",
+      "role": "Employee",
+      "joinedAt": "2026-03-25T10:15:00Z"
+    },
+    {
+      "workspaceId": "ws-global",
+      "userId": "usr-ananya",
+      "role": "Employee",
+      "joinedAt": "2026-04-01T11:00:00Z"
+    },
+    {
+      "workspaceId": "ws-marketing",
+      "userId": "usr-manager",
+      "role": "Manager",
+      "joinedAt": "2026-03-01T14:00:00Z"
+    },
+    {
+      "workspaceId": "ws-marketing",
+      "userId": "usr-admin",
+      "role": "Admin",
+      "joinedAt": "2026-03-02T15:00:00Z"
+    },
+    {
+      "workspaceId": "ws-marketing",
+      "userId": "usr-priya",
+      "role": "Manager",
+      "joinedAt": "2026-03-05T10:00:00Z"
+    },
+    {
+      "workspaceId": "ws-marketing",
+      "userId": "usr-rahul",
+      "role": "Admin",
+      "joinedAt": "2026-03-06T11:00:00Z"
+    }
+  ],
+  "documents": [
+    {
+      "id": "doc-sample-hr",
+      "name": "Standard_HR_Handbook_2026.txt",
+      "size": 4210,
+      "type": "text/plain",
+      "uploadDate": "2026-06-15T10:00:00Z",
+      "uploadedBy": "Sarah Jenkins (Admin)",
+      "workspaceId": "ws-global",
+      "status": "completed",
+      "version": 1,
+      "chunkCount": 3,
+      "metadata": {
+        "title": "Standard HR Handbook 2026",
+        "author": "Sarah Jenkins",
+        "sourceFilename": "Standard_HR_Handbook_2026.txt",
+        "pageCount": 1,
+        "description": "Official 2026 company HR guidelines, vacation policy, and performance reviews."
+      }
+    },
+    {
+      "id": "doc-sample-marketing",
+      "name": "Q3_Social_Playbook.md",
+      "size": 2800,
+      "type": "text/markdown",
+      "uploadDate": "2026-07-02T11:30:00Z",
+      "uploadedBy": "Alex Rivera (Manager)",
+      "workspaceId": "ws-marketing",
+      "status": "completed",
+      "version": 1,
+      "chunkCount": 2,
+      "metadata": {
+        "title": "Q3 Social Playbook",
+        "author": "Alex Rivera",
+        "sourceFilename": "Q3_Social_Playbook.md",
+        "pageCount": 1,
+        "description": "Campaign voice guide, channel targets, scheduling frequencies, and metric goals."
+      }
+    }
+  ],
+  "document_chunks": [
+    {
+      "id": "chk-hr-1",
+      "documentId": "doc-sample-hr",
+      "documentName": "Standard_HR_Handbook_2026.txt",
+      "workspaceId": "ws-global",
+      "chunkIndex": 1,
+      "text": "SECTION 1: VACATION & LEAVE POLICY. Every full-time employee is entitled to 20 business days of paid vacation per calendar year, accruing at 1.67 days per month. Unused vacation up to a maximum of 5 business days can be rolled over to the following year. Rolling over requires manager approval and must be used by Q1. Maternity leave consists of 16 weeks of fully paid leave. Paternity leave consists of 4 weeks of fully paid leave.",
+      "pageNumber": 1
+    },
+    {
+      "id": "chk-hr-2",
+      "documentId": "doc-sample-hr",
+      "documentName": "Standard_HR_Handbook_2026.txt",
+      "workspaceId": "ws-global",
+      "chunkIndex": 2,
+      "text": "SECTION 2: HEALTH & WELLNESS. The company offers a comprehensive group health plan covering medical, dental, and vision from Day 1. There is a yearly wellness allowance of $500 USD that can be used for gym memberships, fitness trackers, mental health apps, or ergonomics office equipment. Requests for expense reimbursement must be filed through the HR portal under category 'Wellness Allowance'.",
+      "pageNumber": 1
+    },
+    {
+      "id": "chk-hr-3",
+      "documentId": "doc-sample-hr",
+      "documentName": "Standard_HR_Handbook_2026.txt",
+      "workspaceId": "ws-global",
+      "chunkIndex": 3,
+      "text": "SECTION 3: PERFORMANCE AND REVIEW CYCLES. Performance appraisals occur twice annually: the Mid-Year Review in July and the Annual Review in December. Employees and their direct managers complete a self-evaluation, receive 360-degree peer feedback, and align on growth plans. High performance is eligible for performance-based bonuses up to 15% of annual base salary.",
+      "pageNumber": 1
+    },
+    {
+      "id": "chk-mkt-1",
+      "documentId": "doc-sample-marketing",
+      "documentName": "Q3_Social_Playbook.md",
+      "workspaceId": "ws-marketing",
+      "chunkIndex": 1,
+      "text": "Q3 CAMPAIGN BRAND VOICE GUIDE. The brand voice for the Q3 campaign is energetic, authoritative, yet approachable. Avoid overly complex jargon. Focus on empowering enterprise leaders. Core tagline: 'Next-Generation Document Intelligence, Democratized'. Platforms of focus: LinkedIn (two long-form text posts/week with infographics) and YouTube (one 3-minute technical deep-dive and two short reels/week).",
+      "pageNumber": 1
+    },
+    {
+      "id": "chk-mkt-2",
+      "documentId": "doc-sample-marketing",
+      "documentName": "Q3_Social_Playbook.md",
+      "workspaceId": "ws-marketing",
+      "chunkIndex": 2,
+      "text": "METRIC GOALS AND REPORTING. The marketing campaign success is tracked by: 1) Click-Through Rate (target > 2.4%), 2) Lead Form Conversions (target 1,200 qualified contacts), and 3) Content Amplification (re-shares and impressions target 250k). Metrics are aggregated in the real-time Marketing Dashboard. Reports are due to the executive team on the last Friday of every month.",
+      "pageNumber": 1
+    }
+  ],
+  "chat_sessions": [
+    {
+      "id": "sess-default-1",
+      "title": "HR Guidelines Vacation Inquiry",
+      "workspaceId": "ws-global",
+      "userId": "usr-admin",
+      "createdAt": "2026-07-10T12:00:00Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg-1-u",
+      "sessionId": "sess-default-1",
+      "role": "user",
+      "content": "How many vacation days do I get and can they roll over?",
+      "timestamp": "2026-07-10T12:00:10Z"
+    },
+    {
+      "id": "msg-1-a",
+      "sessionId": "sess-default-1",
+      "role": "assistant",
+      "content": "According to the **Standard HR Handbook 2026**, every full-time employee receives **20 business days** of paid vacation per calendar year, accruing at 1.67 days per month.\n\nRegarding rollovers:\n- You can roll over a **maximum of 5 business days** to the following year.\n- Doing so requires your **manager's approval**.\n- The rolled-over days **must be used within Q1** of the next year.",
+      "timestamp": "2026-07-10T12:00:20Z",
+      "confidenceScore": 0.98,
+      "citations": [
+        {
+          "documentId": "doc-sample-hr",
+          "documentName": "Standard_HR_Handbook_2026.txt",
+          "chunkId": "chk-hr-1",
+          "pageNumber": 1,
+          "snippet": "Every full-time employee is entitled to 20 business days of paid vacation per calendar year... Unused vacation up to a maximum of 5 business days can be rolled over to the following year. Rolling over requires manager approval and must be used by Q1."
+        }
+      ],
+      "followUpSuggestions": [
+        "What is the policy for parental leave?",
+        "How do I claim wellness expenses?",
+        "Where is the vacation booking portal?"
+      ]
+    }
+  ],
+  "audit_logs": [
+    {
+      "id": "log-1",
+      "userId": "usr-admin",
+      "userName": "Sarah Jenkins (Admin)",
+      "userEmail": "admin@enterprise.ai",
+      "action": "Upload Document",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-06-15T10:00:00Z",
+      "details": "Successfully uploaded document Standard_HR_Handbook_2026.txt (size: 4210 bytes) to workspace ws-global"
+    },
+    {
+      "id": "log-2",
+      "userId": "usr-manager",
+      "userName": "Alex Rivera (Manager)",
+      "userEmail": "manager@enterprise.ai",
+      "action": "Upload Document",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-07-02T11:30:00Z",
+      "details": "Successfully uploaded document Q3_Social_Playbook.md (size: 2800 bytes) to workspace ws-marketing"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1",
+      "userId": "usr-admin",
+      "title": "Document Processed",
+      "message": "Standard_HR_Handbook_2026.txt has been parsed, chunked, and fully indexed in Global Knowledge Base.",
+      "type": "success",
+      "read": false,
+      "createdAt": "2026-06-15T10:01:00Z"
+    },
+    {
+      "id": "notif-2",
+      "userId": "usr-manager",
+      "title": "Workspace Invitation Approved",
+      "message": "Sarah Jenkins joined Q3 Campaign Strategy workspace.",
+      "type": "success",
+      "read": true,
+      "createdAt": "2026-07-02T15:10:00Z"
+    }
+  ],
+  "api_keys": [
+    {
+      "id": "key-1",
+      "name": "Production LangChain Bot",
+      "keyPrefix": "eai_live_8a3f",
+      "role": "Manager",
+      "workspaceId": "ws-global",
+      "createdAt": "2026-06-01T09:00:00Z",
+      "lastUsedAt": "2026-07-13T18:45:00Z"
+    }
+  ],
+  "comments": [],
+  "invitations": [],
+  "shared_conversations": [],
+  "sessions": [],
+  "systemSettings": {
+    "activeProvider": "gemini",
+    "failoverChain": [
+      "gemini",
+      "anthropic",
+      "openai",
+      "ollama"
+    ],
+    "mfaEnabled": false,
+    "rateLimit": 60,
+    "version": "2.1.0-prod"
+  }
+}

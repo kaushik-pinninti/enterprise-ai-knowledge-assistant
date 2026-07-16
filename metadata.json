@@ -1,0 +1,6 @@
+{
+  "name": "Enterprise AI Knowledge Assistant",
+  "description": "A production-grade Enterprise AI Knowledge Assistant featuring full-stack RAG, workspace management, document text extraction, hybrid search, role-based access control, analytics charts, and real-time chat with citations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

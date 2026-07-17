@@ -12,13 +12,25 @@ An enterprise-grade AI Knowledge Base that enables secure semantic document sear
 
 ## 🌐 Live Demo
 
-### Frontend (Vercel)
-https://enterprise-ai-knowledge-assistant-hq5cem742-ka321.vercel.app
+### 🖥️ Frontend (Vercel) – Live
+**URL:** https://enterprise-ai-knowledge-assistant-hq5cem742-ka321.vercel.app
 
-### Backend API (Render)
-https://enterprise-ai-knowledge-assistant-liy6.onrender.com
+- Responsive React UI
+- AI Chat Interface
+- Document Management
+- Authentication & RBAC
 
----
+### ⚙️ Backend API (Render) – Live
+**API URL:** https://enterprise-ai-knowledge-assistant-liy6.onrender.com
+
+- Express.js REST API
+- Google Gemini AI Integration
+- PostgreSQL (Neon) Database
+- JWT Authentication
+- Retrieval-Augmented Generation (RAG)
+- Audit Logging
+
+> **Deployment Status:** ✅ Frontend deployed on **Vercel** and Backend deployed on **Render**. Both services are live and fully integrated.
 
 ## 📸 Application Screenshots
 

@@ -20,41 +20,19 @@ https://enterprise-ai-knowledge-assistant-liy6.onrender.com
 
 ---
 
-# 📸 Application Screenshots
+## 📸 Application Screenshots
 
-## Dashboard
+### Dashboard
+<img src="docs/screenshots/dashboard.png" alt="Dashboard" width="900"/>
 
-> Add image
+### AI Chat Assistant
+<img src="docs/screenshots/chat.png" alt="AI Chat Assistant" width="900"/>
 
-```
-docs/screenshots/dashboard.png
-```
+### Document Management
+<img src="docs/screenshots/documents.png" alt="Document Management" width="900"/>
 
-## AI Chat Assistant
-
-> Add image
-
-```
-docs/screenshots/chat.png
-```
-
-## Document Management
-
-> Add image
-
-```
-docs/screenshots/documents.png
-```
-
-## Admin Panel
-
-> Add image
-
-```
-docs/screenshots/admin.png
-```
-
----
+### Admin Panel
+<img src="docs/screenshots/admin.png" alt="Admin Panel" width="900"/>
 
 # 🚀 Features
 

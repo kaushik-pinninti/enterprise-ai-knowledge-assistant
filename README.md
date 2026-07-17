@@ -29,7 +29,7 @@ https://enterprise-ai-knowledge-assistant-liy6.onrender.com
 <img src="docs/screenshots/Chatbot-Respond.png" alt="AI Chat Assistant" width="900"/>
 
 ### Document Management
-<img src="docs/screenshots/documents.png" alt="Document Management" width="900"/>
+<img src="docs/screenshots/document_hub.png" alt="Document Management" width="900"/>
 
 ### Admin Panel
 <img src="docs/screenshots/admin.png" alt="Admin Panel" width="900"/>

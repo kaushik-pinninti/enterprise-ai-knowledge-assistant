@@ -26,7 +26,7 @@ https://enterprise-ai-knowledge-assistant-liy6.onrender.com
 <img src="docs/screenshots/dashboard.png" alt="Dashboard" width="900"/>
 
 ### AI Chat Assistant
-<img src="docs/screenshots/chat.png" alt="AI Chat Assistant" width="900"/>
+<img src="docs/screenshots/chatbot-respond.png" alt="AI Chat Assistant" width="900"/>
 
 ### Document Management
 <img src="docs/screenshots/documents.png" alt="Document Management" width="900"/>
